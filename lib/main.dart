@@ -1,4 +1,3 @@
-// main.dart
 import 'package:flutter/material.dart';
 import 'home.dart';
 
@@ -29,6 +28,7 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SizedBox(height: 20),
               Text(
                 'Login',
                 style: TextStyle(
@@ -42,6 +42,7 @@ class LoginPage extends StatelessWidget {
                 controller: usernameController,
                 decoration: InputDecoration(
                   labelText: 'Username',
+                  prefixIcon: Icon(Icons.person, color: Colors.blueAccent),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -53,6 +54,7 @@ class LoginPage extends StatelessWidget {
                 obscureText: true,
                 decoration: InputDecoration(
                   labelText: 'Password',
+                  prefixIcon: Icon(Icons.lock, color: Colors.blueAccent),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
