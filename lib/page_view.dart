@@ -28,7 +28,7 @@ class Page_view extends StatelessWidget {
           children: [
             const Center(
               child: Text(
-                "Choose a List View",
+                "Select List View",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w700,

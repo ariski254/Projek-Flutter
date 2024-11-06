@@ -8,7 +8,7 @@ class List_view_horizontal extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Horizontal List",
+          "List View Horizontal",
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         leading: IconButton(
