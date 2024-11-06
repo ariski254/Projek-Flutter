@@ -16,7 +16,7 @@ class Page_view extends StatelessWidget {
         ),
         title: const Text(
           "List View Page",
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         ),
         backgroundColor: Colors.blueAccent,
         elevation: 0,
